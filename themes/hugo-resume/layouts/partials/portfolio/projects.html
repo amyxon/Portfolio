@@ -7,7 +7,17 @@
             <div class="resume-content mr-auto">
                 <h3 class="mb-0">{{ .title }}</h3>
                 <div class="subheading mb-3">{{ .category }}</div>
+                
                 <p>{{ .description | markdownify }}</p>
+
+                {{ if .github_link }}
+                <p>
+                  <a href="{{ .github_link }}" target="_blank" style="font-weight: bold; color: #007bff;">
+                    <i class="fab fa-github"></i> View on GitHub
+                  </a>
+                </p>
+                {{ end }}
+                
             </div>
             <div class="resume-date text-md-right">
                 <span class="text-primary">{{ .timeframe }}</span>
