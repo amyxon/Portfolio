@@ -31,17 +31,17 @@ NEW
         <a class="nav-link js-scroll-trigger" href="{{ "/" | relURL }}#{{ . }}">{{ . | i18n }}</a>
       </li>
       {{ end }}
+       <li class="nav-item">
+        <a class="nav-link" 
+          href="{{ "/" | relURL }}UrbanBox_Network_Design.pdf" 
+          download="Urban Box Project Report.pdf">
+          <i class="fas fa-file-download"></i> Download Report
+        </a>
+      </li>
       {{ if .Site.Params.showContact}}
           <li class="nav-item">
                <a class="nav-link" href="{{ "/contact" | relURL }}">{{ i18n "contact" }}</a>
           </li>
-      <li class="nav-item">
-        <a class="nav-link" 
-          href="{{ "/" | relURL }}UrbanBox_Network_Design.pdf" 
-          download="UrbanBox Project Report.pdf">
-          <i class="fas fa-file-download"></i> Download UrbanBox Project Report
-        </a>
-      </li>
       {{ end }}
     </ul>
   </div>
