@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Network Design",
+    "category": "Advanced Networking & Security",
+    "description": "Designing a multi-site healthcare network across Dublin, Limerick, and Sligo. Key focus on Layer 2 Security: DHCP Snooping, Dynamic ARP Inspection, Port Security. Redundant Floating Static Routes for failover, and secure Wireless LAN implementation"
+  },
+  {
+    "title": "Assembly-Based Retro Game Development",
+    "category": "Web Development",
+    "description": "Developing a simple game using Assembly language to deepen understanding of CPU architecture, memory management, and low-level system operations."
+  },
+  {
+    "title": "Cross-Platform Systems Integration",
+    "category": "Low-Level Programming",
+    "description": "Developing a simple game using Assembly language to deepen understanding of CPU architecture, memory management, and low-level system operations."
+  },
+  {
+    "title": "Mobile Privacy: Device De-googling",
+    "category": "Mobile security",
+    "description": "Researching and implementing e/os to eliminate third-party tracking and enhance device security"
+  },
+  {
+    "title": "Yunohost",
+    "category": "System Administration",
+    "description": "Deploying a YunoHost instance on a Raspberry Pi 400 to self-host essential services suhc as NextCloud"
+  }
+]

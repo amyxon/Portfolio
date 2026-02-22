@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Network Design UrbanBox Fitness Studio",
+    "category": "Networking",
+    "description": "Designed and prototyped a secure LAN for a commercial studio using Cisco Packet Tracer. Implemented VLAN segmentation, inter-VLAN routing, DHCP allocation, and network redundancy for high availability",
+    "timeframe": "2025"
+  },
+
+  {
+  "title": "Professional Portfolio Development",
+  "category": "Web Development",
+  "description": "Developed and deployed a personal portfolio site using the Hugo framework. Managed the local development environment via PowerShell, configured technical sections for Skills and Education, and successfully migrated the local build to a live GitHub Pages server.",
+  "timeframe": "2026"
+ },
+  {
+  "title": "Cross-Platform Systems Integration",
+  "category": "Systems Administration",
+  "description": "Configured Samba file sharing and secure SSH access between Linux and Windows environments. Developed BASH scripts to automate administrative tasks and performed full system troubleshooting.",
+  "timeframe": "2025"
+ },
+
+ {
+  "title": "Recon.py: Automated Security Tool",
+  "category": "Cybersecurity",
+  "description": "Developed a multi-threaded Python tool for automated network discovery, TLS security auditing, and web service fingerprinting with structured reporting.",
+  "timeframe": "2025"
+ },
+ {
+  "title": "Cryptography",
+  "category": "Cybersecurity",
+  "description": "Established a secure digital identity by generating and managing a personal PGP key.",
+  "timeframe": "2026"
+ },
+ {
+  "title": "Automated Threat Detection & Log Analytics",
+  "category": "Cybersecurity & Python",
+  "description": "Developed a Python-based security tool to automate the analysis of web server logs. The script identifies attack patterns, extracts unique IPs, performs Geolocation lookups, and generates visual data summaries (Bar Charts).",
+  "timeframe": "2025"
+}
+
+]

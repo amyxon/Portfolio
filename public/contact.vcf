@@ -1,0 +1,30 @@
+
+BEGIN:VCARD
+VERSION:4.0
+
+
+N:O&#39;neill;Amy;;;
+FN:Amy O&#39;neill
+
+
+TEL;TYPE=WORK,VOICE:353 (89) 475 3664
+
+
+EMAIL;TYPE=INTERNET,PREF:amyoneill010@proton.me
+
+
+EMAIL;TYPE=INTERNET,WORK:
+
+
+PHOTO;TYPE=JPG;VALUE=URI:http://localhost:1313/img/Amytest.png
+
+
+ORG:Current Company LTD
+
+
+TITLE:
+
+
+URL:http://localhost:1313/
+
+END:VCARD
