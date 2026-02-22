@@ -1,8 +1,21 @@
+<a class="navbar-brand js-scroll-trigger" href="#page-top">
+:heart:
+Click to react
+:white_check_mark:
+Click to react
+:orange_heart:
+Click to react
+Add Reaction
+Reply
+Forward
+More
+NEW
+[4:21 PM]Sunday, February 22, 2026 4:21 PM
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
   <a class="navbar-brand js-scroll-trigger" href="#page-top">
     <span class="d-block d-lg-none">{{ .Site.Params.firstName }} {{ .Site.Params.lastName }}</span>
     <span class="d-none d-lg-block">
-      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ "img/Amytest.png" | relURL }}" alt="">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ "/" | relURL }}img/Amytest.png" alt="">
     </span>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,23 +24,23 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="{{ "#about" | absURL }}">{{ i18n "about" }}</a>
+        <a class="nav-link js-scroll-trigger" href="{{ "/" | relURL }}#about">{{ i18n "about" }}</a>
       </li>
       {{ range .Site.Params.sections }}
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="{{ (printf "#%s" .) | absURL }}">{{ . | i18n }}</a>
+        <a class="nav-link js-scroll-trigger" href="{{ "/" | relURL }}#{{ . }}">{{ . | i18n }}</a>
       </li>
       {{ end }}
+      {{ if .Site.Params.showContact}}
+          <li class="nav-item">
+               <a class="nav-link" href="{{ "/contact" | relURL }}">{{ i18n "contact" }}</a>
+          </li>
       <li class="nav-item">
         <a class="nav-link" 
           href="{{ "/" | relURL }}UrbanBox_Network_Design.pdf" 
-          download="Urban Box Project Report.pdf">
-          <i class="fas fa-file-download"></i> Download Report
+          download="UrbanBox Project Report.pdf">
+          <i class="fas fa-file-download"></i> Download UrbanBox Project Report
         </a>
-      </li>
-      {{ if .Site.Params.showContact }}
-      <li class="nav-item">
-        <a class="nav-link" href="{{ "/contact.html" | relURL }}"></a>
       </li>
       {{ end }}
     </ul>
