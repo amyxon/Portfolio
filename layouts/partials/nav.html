@@ -18,6 +18,13 @@
         <a class="nav-link js-scroll-trigger" href="{{ (printf "#%s" .) | absURL }}">{{ . | i18n }}</a>
       </li>
       {{ end }}
+      <li class="nav-item">
+        <a class="nav-link" 
+          href="{{ "/" | relURL }}UrbanBox_Network_Design.pdf" 
+          download="Urban Box Project Report.pdf">
+          <i class="fas fa-file-download"></i> Download Report
+        </a>
+      </li>
       {{ if .Site.Params.showContact }}
       <li class="nav-item">
         <a class="nav-link" href="{{ "/contact.html" | relURL }}"></a>
