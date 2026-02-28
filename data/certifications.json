@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Cybersecurity TestIO",
+        "description": "Cybersecurity",
+        "badge":"cybersecurity_passed.svg",
+        "proof":"Cybersecurityp.png"
+
+    },
+    {
+        "name":"Exploratory Tester TestIO",
+        "description": "Bug and Report Analysis",
+        "badge":"certified_exploratory_tester.svg",
+        "proof":"Analysisp.png"
+
+    }
+]

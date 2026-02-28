@@ -1,0 +1,18 @@
+[
+  {
+      "grouping":"Languages & Tools",
+      "skills":[ "Java","Python","git","bash","php","C", "JavaScript","Assembly","C++","HTML"]
+  },
+  {
+      "grouping":"Platform Development & Administration",
+      "skills":[ "phpMyAdmin","NGINX","MySQL","Wordpress", "Cisco Packet Tracer"]
+  },
+  {
+      "grouping":"Operating Systems",
+      "skills":[ "Linux","Ubuntu","Debian","| Windows |","Rocky Linux"]
+  },
+  {
+    "grouping":"Virtual Machines",
+      "skills":["Oracle VM VirtualBox | ","VMware"]
+  }
+]
